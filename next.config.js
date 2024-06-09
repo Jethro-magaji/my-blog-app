@@ -1,5 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true, // (Optional, but recommended for strict mode)
   // ... your other Next.js configurations
   exportPathMap: () => ({
@@ -7,5 +6,3 @@ const nextConfig = {
     '/dashboard': { page: '/dashboard' }
   }),
 };
-
-export default nextConfig;
